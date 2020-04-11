@@ -1,0 +1,147 @@
+{
+  "semantics": [
+    {
+      "label": "Media",
+      "fields": [
+        {
+          "label": "Tipi",
+          "description": "Media opsinale për tu treguar mbi detyrën."
+        },
+        {
+          "label": "Çaktivizo zmadhimin e imazhit"
+        }
+      ]
+    },
+    {
+      "label": "Pyetje"
+    },
+    {
+      "label": "Përgjigja e saktë",
+      "options": [
+        {
+          "label": "e Vërtetë"
+        },
+        {
+          "label": "e Gabuar"
+        }
+      ]
+    },
+    {
+      "label": "Ndërfaqja e përdoruesit e përkthyer për pyetjet e Vërtetë/e Gabuar",
+      "fields": [
+        {
+          "label": "Etiketa për butonin e Vërtetë",
+          "default": "e Vërtetë"
+        },
+        {
+          "label": "Etiketa për butonin e Gabuar",
+          "default": "e Gabuar"
+        },
+        {
+          "label": "Teksti i reagimit",
+          "default": "Ju keni @score të @total pikëve",
+          "description": "Teksti përgjigje, variablat e disponueshëm: @score dhe @total. Shembull: 'Ju keni @score të @total pikëve të mundëshme'"
+        },
+        {
+          "label": "Teksti për butonin \"Kontrollo\" ",
+          "default": "Kontrollo"
+        },
+        {
+          "label": "Teksti për butonin \"Trego zgjidhjen\" ",
+          "default": "Trego zgjidhjen"
+        },
+        {
+          "label": "Teksti për butonin riprovo \"Riprovo\" ",
+          "default": "Riprovo"
+        },
+        {
+          "label": "Përgjigja e gabuar",
+          "default": "Përgjigja e gabuar"
+        },
+        {
+          "label": "Përgjigja e saktë",
+          "default": "Përgjigja e saktë"
+        },
+        {
+          "label": "Piprodhimi textual i pikëve për ata që përdorin lexuesin",
+          "default": "Ju keni :num nga :total pikë"
+        }
+      ]
+    },
+    {
+      "label": "Mjedisi i sjellje",
+      "description": "Këto opsione ju lejojnë të kontrolloni si sillen këto veprime.",
+      "fields": [
+        {
+          "label": "Aktivizo butonin \"Riprovo\" "
+        },
+        {
+          "label": "Aktivizo butonin \"Trego zgjidhjen \" "
+        },
+        {
+          "label": "Aktivizo butonin \"Kontrollo\" "
+        },
+        {
+          "label": "Trego tabelen e konfirmimit tek \"Kontrollo\""
+        },
+        {
+          "label": "Trego tabelen e konfirmimit tek \"Riprovo\""
+        },
+        {
+          "label": "Kontrollo përgjigjen automatikisht",
+          "description": "Kini kujdes se qasja mund të ketë probleme nëse aktivizoni këtë funksionalitet"
+        },
+        {
+          "label": "Reagimi mbi përgjigjen e vërtetë",
+          "description": "Kjo do të mbivendoset mbi reagimin aktual. Variablat e mundshëm: @score dhe @total"
+        },
+        {
+          "label": "Reagimi mbi përgjigjen e gabuar",
+          "description": "Kjo do të mbivendoset mbi reagimin aktual. Variablat e mundshëm: @score dhe @total"
+        }
+      ]
+    },
+    {
+      "label": "Kontrollo mesazhin e konfirmimit",
+      "fields": [
+        {
+          "label": "Teksti i kreut",
+          "default": "Fund ?"
+        },
+        {
+          "label": "Teksti i trupit",
+          "default": "Je i sigurtë që do të përfundosh?"
+        },
+        {
+          "label": "Etiketa e butonit Anullo",
+          "default": "Anullo"
+        },
+        {
+          "label": "Etiketa e butonit konfirmo",
+          "default": "Përfundo"
+        }
+      ]
+    },
+    {
+      "label": "Tabela e konfirmimit të riprovimit",
+      "fields": [
+        {
+          "label": "Teksti i kreut",
+          "default": "Riprovo ?"
+        },
+        {
+          "label": "Teksti i trupit",
+          "default": "Je i sigurtë që do të riprovosh?"
+        },
+        {
+          "label": "Etiketa e butonit të anullimit",
+          "default": "Anullo"
+        },
+        {
+          "label": "Etiketa e butonit të konfirmimit",
+          "default": "Konfirmo"
+        }
+      ]
+    }
+  ]
+}
